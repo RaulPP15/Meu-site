@@ -1,30 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Spotify Fullscreen</title>
-    <style>
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-        iframe {
-            border: none;
-            width: 100%;
-            height: 100%;
-            border-radius: 0;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador/Decodificador</title>
 </head>
 
 <body>
-    <iframe src="https://open.spotify.com/embed/playlist/7h6DTOIRmtLCNf9xiEu34K?utm_source=generator&theme=0"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-    </iframe>
+    <label for="text">Digite o Texto ou o código</label>
+    <input type="text" id="decifrar">
+    <br>
+    <br>
+    <button onclick="codificar()">Codificar</button>
+    <button onclick="decodificar()">Decodificar</button>
+
+    <br><br>
+
+    <span id="textopronto"></span>
 </body>
 
 </html>
