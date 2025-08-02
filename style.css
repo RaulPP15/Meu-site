@@ -1,4 +1,10 @@
+.tudo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 iframe {
-  width: 100%;
-  height: 100%;
+  width: 25%;
+  height: 500px;
 }
