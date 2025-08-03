@@ -9,3 +9,21 @@ iframe {
   align-items: center;
   margin-top: 20px;
 }
+
+.texto {
+  display: none;
+}
+
+button{
+  margin: 2px;
+  padding: 5px;
+  border: 1.5px solid blue;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
