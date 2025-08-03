@@ -10,7 +10,12 @@
 </head>
 
 <body>
-    <button onclick="video()">Esconder texto</button>
+    <button onclick="mostrartexto()">Mostrar texto</button>
+    <button onclick="escondertexto()">Esconder texto</button>
+    <button onclick="mostrarvideo()">Mostrar Vídeo</button>
+    <button onclick="escondervideo()">Esconder Vídeo</button>
+    <button onclick="mostrarpptx()">Mostrar Power Point</button>
+    <button onclick="esconderpptx()">Esconder Power Point</button>
     <div class="container">
         <div id="textos">
             <h1>Robert Capa</h1>
@@ -24,8 +29,12 @@
                 Reel no
                 Instagram</a>
         </div>
-        <div class="video">
-            <iframe src="https://www.instagram.com/reel/DHEzcsqywCs/embed" frameborder="0" allowfullscreen id="meuiframe"></iframe>
+        <div id="video">
+            <iframe src="https://www.instagram.com/reel/DHEzcsqywCs/embed" frameborder="0" allowfullscreen
+                id="meuiframe"></iframe>
+        </div>
+        <div id="pptx">
+            <a href="seuarquivo.pptx" download>Baixar apresentação</a>
         </div>
     </div>
 </body>
