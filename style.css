@@ -1,10 +1,11 @@
-.tudo {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+iframe {
+  width: 750px;
+  height: 600px;
+  border: none;
 }
 
-iframe {
-  width: 25%;
-  height: 500px;
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
